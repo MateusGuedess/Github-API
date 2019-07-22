@@ -12,7 +12,7 @@ export default function Commits({location, history}) {
       getCommits(location.state.username, location.state.repository)
       .then(res => setCommits(res))
 
-      return(<>teste</>)
+      return(<></>)
     }
 
     window.addEventListener("scroll", function (event) {
